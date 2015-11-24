@@ -1,0 +1,13 @@
+*.bin
+*.yaml
+sync/*
+*.userdb/*
+*.userdb.*
+luna_pinyin.zhanghu.dict.yaml
+!default.custom.yaml
+!luna_pinyin.custom.dict.yaml
+!luna_pinyin.custom.yaml
+!squirrel.custom.yaml
+!symbols.yaml
+!weasel.custom.yaml
+.DS_Store

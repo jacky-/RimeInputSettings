@@ -1,0 +1,32 @@
+patch:
+  style/color_scheme: clean_white
+  show_notifications_via_notification_center: true
+  style/font_face: "Lucida Grande" #字体
+  style/font_point: 16 #字号
+  style/fullscreen: false #全屏？？目前未知待测试。
+  style/horizontal: true #开启：横排显示候选词。关闭：竖排显示。
+  #style/inline_preedit: false #行内预编辑。暂时未知。
+  style/label_font_point: 8
+  style/layout:
+    corner_radius: 10
+    border_height: 0
+    border_width: 0
+    line_spacing: 1
+    spacing: 5  # space between preedit and candidates in non-inline mode
+    #candidate_format: '%c. %@ '
+  app_options/com.sublimetext.2:
+    ascii_mode: true
+  app_options/com.sublimetext.3":
+    ascii_mode: true
+  app_options/com.google.Chrome":
+    ascii_mode: true
+  app_options/com.apple.Terminal":
+    ascii_mode: true
+  app_options/com.alfredapp.Alfred":
+    ascii_mode: true
+  app_options/com.googlecode.iterm2":
+    ascii_mode: true
+  app_options/com.blacktree.Quicksilver":
+    ascii_mode: true
+  app_options/com.runningwithcrayons.Alfred-2":
+    ascii_mode: true
