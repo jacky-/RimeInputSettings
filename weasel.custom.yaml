@@ -5,34 +5,45 @@ customization:
   modified_time: "Mon Aug 10 10:56:15 2015"
   rime_version: 1.1.2
 patch:
-  style/color_scheme: youtube
-  style/display_tray_icon: true #开启：右下角输入法状态栏显示图标，方便进行操作。关闭：隐藏图标
+# us_keyboard_layout: true         # 键盘选项：应用美式键盘布局
+# show_notifications_when: growl_is_running  # 狀態通知，默認裝有Growl時顯示，也可設爲全開（always）全關（never）
+  "preset_color_schemes/j_google":
+    author: "skoj <skoj@qq.com>"
+    back_color: 0xFEFAF5 #背景
+    border_color: 0xE2E2E2 #边框
+    candidate_text_color: 0x000000 #非第一候选项
+    hilited_back_color: 0xFFFFFF #拼音串高亮背景
+    hilited_candidate_back_color: 0xCE7539 #第一候选项背景
+    hilited_candidate_text_color: 0xFFFFFF #第一候选项
+    hilited_text_color: 0x000000 #拼音串高亮
+    name: "跍跏／Google"
+    text_color: 0x666666 #拼音串
+  style/color_scheme: j_google
+  style/display_tray_icon: true #右下角输入法状态栏显示图标，方便进行操作。
   style/font_face: "Microsoft YaHei" #字体
   style/fullscreen: false #全屏？？目前未知待测试。
   style/horizontal: true #开启：横排显示候选词。关闭：竖排显示。
-  style/inline_preedit: true #行内预编辑。暂时未知。
-  style/layout:
-    #显示效果选项
-    border_width: 3
-    candidate_spacing: 5
-    hilite_padding: 2
-    hilite_spacing: 4
-    margin_x: 12
-    margin_y: 12
-    min_height: 0
-    min_width: 160
-    round_corner: 4
-    spacing: 10
-# us_keyboard_layout: true         # 键盘选项：应用美式键盘布局
-# show_notifications_when: growl_is_running  # 狀態通知，默認裝有Growl時顯示，也可設爲全開（always）全關（never）
-# style/inline_preedit: false   # 关闭内嵌编码，这样就可以显示首行的拼音（MAC下不建议开启）
+  style/inline_preedit: false # 行内预编辑.首行的拼音（MAC下不建议开启）
   style/corner_radius: 3           # 窗口圆角半径
   style/border_height: 4           # 窗口边界高度，大于圆角半径才有效果
-  tyle/border_width: 4             # 窗口边界宽度，大于圆角半径才有效果
-  style/line_spacing: 1         # 候选词的行间距
-  style/spacing: 5              # 在非内嵌编码模式下，预编辑和候选词之间的间距
-  style/font_point: 17             #预选栏文字字号
-  style/label_font_point: 17       #预选栏编号字号
+  style/border_width: 4             # 窗口边界宽度，大于圆角半径才有效果
+  # style/line_spacing: 1         # 候选词的行间距
+  # style/spacing: 5              # 在非内嵌编码模式下，预编辑和候选词之间的间距
+  # style/font_point: 17             #预选栏文字字号
+  # style/label_font_point: 17       #预选栏编号字号
+  # style/layout:
+  #   #显示效果选项
+  #   border_width: 3
+  #   candidate_spacing: 5
+  #   hilite_padding: 2
+  #   hilite_spacing: 4
+  #   margin_x: 12
+  #   margin_y: 12
+  #   min_height: 0
+  #   min_width: 160
+  #   round_corner: 4
+  #   spacing: 10
+
   app_options/chrome.exe:
     ascii_mode: true
   app_options/firefox.exe:
