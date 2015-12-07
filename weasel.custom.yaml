@@ -56,3 +56,5 @@ patch:
     ascii_mode: true
   app_options/explorer.exe:
     ascii_mode: true
+  app_options/Photoshop.exe:
+    ascii_mode: true

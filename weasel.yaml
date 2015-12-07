@@ -1,4 +1,6 @@
 app_options:
+  Photoshop.exe:
+    ascii_mode: true
   chrome.exe:
     ascii_mode: true
   cmd.exe:
@@ -13,8 +15,8 @@ app_options:
     ascii_mode: true
   sublime_text.exe:
     ascii_mode: true
-config_version: 0.19.custom.371740655
-customization: 371740655
+config_version: 0.19.custom.3501791497
+customization: 3501791497
 preset_color_schemes:
   android:
     author: "Patricivs <ipatrickmac@me.com>"

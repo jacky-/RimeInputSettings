@@ -1,8 +1,8 @@
 patch:
   schema_list:
     - schema: luna_pinyin
-    - schema: kaomoji
     - schema: luna_pinyin_simp
+    # - schema: kaomoji
     # - {schema: emoji}
   menu/page_size: 9
   ascii_composer/good_old_caps_lock:  true
