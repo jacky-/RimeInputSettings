@@ -5,7 +5,7 @@ patch:
   style/font_point: 16 #字号
   style/fullscreen: false #全屏？？目前未知待测试。
   style/horizontal: true #开启：横排显示候选词。关闭：竖排显示。
-  #style/inline_preedit: false #行内预编辑。暂时未知。
+  style/inline_preedit: true #行内预编辑。暂时未知。
   style/label_font_point: 8
   style/layout:
     corner_radius: 10
@@ -16,17 +16,23 @@ patch:
     #candidate_format: '%c. %@ '
   app_options/com.sublimetext.2:
     ascii_mode: true
-  app_options/com.sublimetext.3":
+  app_options/com.sublimetext.3:
     ascii_mode: true
-  app_options/com.google.Chrome":
+  app_options/com.apple.dt.Xcode:
     ascii_mode: true
-  app_options/com.apple.Terminal":
+  app_options/com.google.Chrome:
     ascii_mode: true
-  app_options/com.alfredapp.Alfred":
+  app_options/com.apple.Safari:
     ascii_mode: true
-  app_options/com.googlecode.iterm2":
+  app_options/org.mozilla.firefox:
     ascii_mode: true
-  app_options/com.blacktree.Quicksilver":
+  app_options/com.apple.Terminal:
     ascii_mode: true
-  app_options/com.runningwithcrayons.Alfred-2":
+  app_options/com.alfredapp.Alfred:
+    ascii_mode: true
+  app_options/com.googlecode.iterm2:
+    ascii_mode: true
+  app_options/com.blacktree.Quicksilver:
+    ascii_mode: true
+  app_options/com.runningwithcrayons.Alfred-2:
     ascii_mode: true
