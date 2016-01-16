@@ -13,4 +13,5 @@ sync/*
 !weasel.yaml
 !kaomoji.dict.yaml
 !kaomoji.schema.yaml
+!user.yaml
 .DS_Store
